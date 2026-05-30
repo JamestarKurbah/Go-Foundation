@@ -64,7 +64,7 @@ func main() {
 	fmt.Println(jane)
 	jane.SetJoinedAt(time.Now().Add(100000000 * time.Minute))
 	fmt.Println(jane)
-	// emptying
+	// demo to show panic
 	joe := &Employee{}
 	joe = nil
 	joe.FullName()
